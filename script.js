@@ -1,6 +1,10 @@
-alert('Iremos somar 2 números')
+/*
+    Solicite 2 números, faça a soma deles
+    e apresente o resultado final ao usuário
+*/
 
-let firstNumber = prompt('Digite o primeiro número !')
-let secondNumber = prompt('Digite o segundo número !')
-
-alert('A soma dos numeros é ' + (firstNumber + secondNumber))
+alert("Iremos fazer uma soma de 2 números")
+let numberOne = prompt("Digite o primeiro número:")
+let numberTwo = prompt("Digite o segundo número:")
+let result = Number(numberOne) + Number(numberTwo)
+alert("O resultado da soma é: " + result)
