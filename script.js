@@ -1,10 +1,17 @@
 /*
-    Solicite 2 números, faça a soma deles
-    e apresente o resultado final ao usuário
+    Capture 10 items para compor a lista
+    de um supermercado.
+
+    Após capturar os 10 items, imprima-os,
+    separando por vírgula.
 */
 
-alert("Iremos fazer uma soma de 2 números")
-let numberOne = prompt("Digite o primeiro número:")
-let numberTwo = prompt("Digite o segundo número:")
-let result = Number(numberOne) + Number(numberTwo)
-alert("O resultado da soma é: " + result)
+let items = []
+
+for (let item = 0; item < 10; item++) {
+    let itemName = prompt("Digite o item " + (item + 1))
+
+    items[item] = itemName
+}
+
+alert(items)
